@@ -22,6 +22,7 @@ def archive_dir(opened_dir_path: str):
     for p in processes:
         p.join()
     messagebox.showinfo("Архівовано !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+ 
 def create_winodw():
     # --------------------------------------------------------------------
     # Вікно
